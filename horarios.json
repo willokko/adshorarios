@@ -2,143 +2,143 @@
     "materias": [
         {
             "nome": "Cálculo",
-            "horario": ["M1", "M2", "M3"]
+            "horario": ["M1 Segunda", "M1 Quarta", "M2 Segunda", "M2 Quarta", "M3 Quarta"]
         },
         {
             "nome": "Algoritmos",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T1 Sexta", "T2 Terça", "T2 Sexta"]
         },
         {
             "nome": "Fundamentos de Computação",
-            "horario": ["M3", "M4", "T1", "T2"]
+            "horario": ["M3 Segunda", "M4 Segunda", "T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Linguagem de Marcação",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Quinta", "M2 Quinta", "M1 Sexta", "M2 Sexta"]
         },
         {
             "nome": "Inglês Instrumental",
-            "horario": ["M5"]
+            "horario": ["M5 Segunda", "M5 Quinta"]
         },
         {
             "nome": "Português",
-            "horario": ["M4"]
+            "horario": ["M4 Quarta"]
         },
         {
             "nome": "Gerenciamento de Mudanças",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Segunda", "T2 Segunda"]
         },
         {
             "nome": "Probabilidade",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça", "T1 Quarta", "T2 Quarta"]
         },
         {
             "nome": "Estruturas de Dados",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Segunda", "T2 Segunda", "T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Redes",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Quarta", "T2 Quarta", "T1 Quinta", "T2 Quinta"]
         },
         {
             "nome": "Laboratório de Sistemas Web",
-            "horario": ["T1"]
+            "horario": ["T1 Quinta", "T2 Sexta"]
         },
         {
             "nome": "Sociedade e Tecnologia da Informação",
-            "horario": ["T1"]
+            "horario": ["T1 Sexta"]
         },
         {
             "nome": "Projeto e Desenvolvimento de Software",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Segunda", "M2 Segunda", "M1 Terça", "M2 Terça", "M1 Quarta"]
         },
         {
             "nome": "Programação Orientada a Objetos",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Terça", "M2 Terça", "M1 Quarta", "M2 Quarta"]
         },
         {
             "nome": "Banco de Dados I",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Quinta", "M2 Quinta"]
         },
         {
             "nome": "Metodologia",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Sistemas Operacionais",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Sexta", "T2 Sexta"]
         },
         {
             "nome": "Análise e Projeção de Sistemas",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Laboratório de Redes",
-            "horario": ["T1"]
+            "horario": ["T1 Terça"]
         },
         {
             "nome": "Banco de Dados II",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Teste de Software",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Gerenciamento de Projetos",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Programação Web I",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Interação Humano-Computador",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Segunda", "M2 Segunda", "M1 Terça", "M2 Terça"]
         },
         {
             "nome": "Desenvolvimento de Aplicações Corporativas",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Segunda", "M2 Segunda", "M1 Quarta", "M2 Quarta"]
         },
         {
             "nome": "Segurança da Informação",
-            "horario": ["M1", "M2"]
+            "horario": ["M1 Terça", "M2 Terça"]
         },
         {
             "nome": "Padrões de Projeto",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Programação para Dispositivos Móveis",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Terça", "T2 Terça"]
         },
         {
             "nome": "Trabalho de Conclusão de Curso II",
-            "horario": ["T1"]
+            "horario": ["T1 Terça"]
         },
         {
             "nome": "Língua Brasileira de Sinais",
-            "horario": ["T1"]
+            "horario": ["T1 Quarta"]
         },
         {
             "nome": "Empreendedorismo",
-            "horario": ["T1", "T2"]
+            "horario": ["T1 Segunda", "T2 Segunda"]
         },
         {
             "nome": "Recursos Humanos em TI",
-            "horario": ["T1"]
+            "horario": ["T1 Terça"]
         },
         {
             "nome": "Sistemas Distribuídos",
-            "horario": ["T1"]
+            "horario": ["T1 Quarta"]
         },
         {
             "nome": "Programação Web II",
-            "horario": ["T1"]
+            "horario": ["T1 Quinta"]
         },
         {
             "nome": "Gestão de Tecnologia da Informação",
-            "horario": ["T1"]
+            "horario": ["T1 Segunda", "T2 Segunda"]
         }
     ]
 }
