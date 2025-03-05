@@ -1,0 +1,256 @@
+Primeiro Periodo:
+
+    Cálculo
+
+        Segunda: 07:00 - 07:50
+        Segunda: 07:50 - 08:40
+        Quarta: 07:00 - 07:50
+        Quarta: 07:50 - 08:40
+        Quarta: 08:40 - 09:30
+
+    Algoritmos
+
+        Terça: 07:00 - 07:50
+        Terça: 07:50 - 08:40
+        Sexta: 09:45 - 10:35
+        Sexta: 10:35 - 11:25
+
+    Fundamentos de Computação (FUND. COMP.)
+
+        Segunda: 08:40 - 09:30
+        Segunda: 09:45 - 10:35
+        Terça: 09:45 - 10:35
+        Terça: 10:35 - 11:25
+
+    Linguagem de Marcação (LIN. MARCAÇÃO)
+
+        Quinta: 07:00 - 07:50
+        Quinta: 07:50 - 08:40
+        Sexta: 07:00 - 07:50
+        Sexta: 07:50 - 08:40
+
+    Inglês Instrumental (INGLÊS INST.)
+
+        Segunda: 10:35 - 11:25
+        Quinta: 08:40 - 09:30
+
+    Português
+
+        Quarta: 09:45 - 10:35
+        Quarta: 10:35 - 11:25
+
+Segundo Periodo
+
+    Gerenciamento de Mudanças (GER. MUDANÇAS)
+
+        Segunda: 13:00 - 13:50
+        Segunda: 13:50 - 14:40
+
+    Probabilidade
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Quarta: 13:00 - 13:50
+        Quarta: 13:50 - 14:40
+        Quarta: 14:40 - 15:30
+
+    Estruturas de Dados (EST. DADOS)
+
+        Segunda: 14:40 - 15:30
+        Segunda: 15:45 - 16:35
+        Segunda: 16:35 - 17:25
+        Terça: 14:40 - 15:30
+        Terça: 15:45 - 16:35
+        Terça: 16:35 - 17:25
+
+    Redes
+
+        Quarta: 14:40 - 15:30
+        Quarta: 15:45 - 16:35
+        Quarta: 16:35 - 17:25
+        Quinta: 13:00 - 13:50
+        Quinta: 13:50 - 14:40
+
+    Laboratório de Sistemas Web (L. S. WEB)
+
+        Quinta: 13:00 - 13:50
+        Quinta: 13:50 - 14:40
+        Sexta: 16:35 - 17:25
+
+    Sociedade e Tecnologia da Informação (SOC. TEC. INF.)
+
+        Sexta: 15:45 - 16:35
+        Sexta: 16:35 - 17:25
+
+Terceiro Periodo
+
+    Projeto e Desenvolvimento de Software (PRO. DES. SOFT)
+
+        Segunda: 07:00 - 07:50
+        Segunda: 07:50 - 08:40
+        Terça: 07:00 - 07:50
+        Terça: 07:50 - 08:40
+        Quarta: 08:40 - 09:30
+
+    Programação Orientada a Objetos (P. O. O.)
+
+        Terça: 08:40 - 09:30
+        Terça: 09:45 - 10:35
+        Quarta: 07:00 - 07:50
+        Quarta: 07:50 - 08:40
+        Quarta: 09:45 - 10:35
+        Quarta: 10:35 - 11:25
+
+    Banco de Dados I (BANCO. DADOS I)
+
+        Quinta: 07:00 - 07:50
+        Quinta: 07:50 - 08:40
+        Quinta: 09:45 - 10:35
+        Quinta: 10:35 - 11:25
+
+    Metodologia
+
+        Sexta: 09:45 - 10:35
+        Sexta: 10:35 - 11:25
+
+    Sistemas Operacionais (SIS. OPER.)
+
+        Sexta: 07:00 - 07:50
+        Sexta: 07:50 - 08:40
+        Sexta: 08:40 - 09:30
+        Sexta: 09:45 - 10:35
+
+Quarto Periodo
+
+    Análise e Projeção de Sistemas (A. P. S.)
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+        Terça: 15:45 - 16:35
+        Terça: 16:35 - 17:25
+
+    Laboratório de Redes (LAB. REDES)
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+
+    Banco de Dados II (BANCO. DADOS II)
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+        Terça: 15:45 - 16:35
+        Terça: 16:35 - 17:25
+
+    Teste de Software (TESTE. SOFTWARE)
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+
+    Gerenciamento de Projetos (GEREN. PROJETOS)
+
+        Terça: 13:00 - 13:50
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+        Terça: 15:45 - 16:35
+        Terça: 16:35 - 17:25
+
+    Programação Web I (PROG. WEB I)
+
+        Terça: 14:40 - 15:30
+        Terça: 15:45 - 16:35
+        Terça: 16:35 - 17:25
+
+Quinto Periodo
+
+    Interação Humano-Computador (I. H. C.)
+
+        Segunda: 07:00 - 07:50
+        Segunda: 07:50 - 08:40
+        Terça: 07:00 - 07:50
+        Terça: 07:50 - 08:40
+
+    Desenvolvimento de Aplicações Corporativas (D. A. C.)
+
+        Segunda: 08:40 - 09:30
+        Segunda: 09:45 - 10:35
+        Segunda: 10:35 - 11:25
+        Quarta: 07:00 - 07:50
+        Quarta: 07:50 - 08:40
+        Quarta: 08:40 - 09:30
+
+    Segurança da Informação (SEGURANÇA)
+
+        Terça: 08:40 - 09:30
+        Terça: 09:45 - 10:35
+        Terça: 10:35 - 11:25
+        Quinta: 07:00 - 07:50
+        Quinta: 07:50 - 08:40
+
+    Padrões de Projeto (PADRÕES)
+
+        Quarta: 09:45 - 10:35
+        Quarta: 10:35 - 11:25
+        Quinta: 09:45 - 10:35
+        Quinta: 10:35 - 11:25
+
+    Programação para Dispositivos Móveis (PROG. MÓVEIS)
+
+        Sexta: 07:00 - 07:50
+        Sexta: 07:50 - 08:40
+        Sexta: 08:40 - 09:30
+        Sexta: 09:45 - 10:35
+        Sexta: 10:35 - 11:25
+
+Sexto Periodo
+
+    Trabalho de Conclusão de Curso II (T. C. C. II)
+
+        Terça: 07:00 - 07:50
+        Terça: 07:50 - 08:40
+
+    Língua Brasileira de Sinais (LIBRAS)
+
+        Quarta: 08:40 - 09:30
+        Quarta: 09:45 - 10:35
+        Quarta: 10:35 - 11:25
+
+    Empreendedorismo (EMPREENDED.)
+
+        Segunda: 13:00 - 13:50
+        Segunda: 13:50 - 14:40
+        Segunda: 14:40 - 15:30
+        Terça: 13:00 - 13:50
+
+    Recursos Humanos em TI (R. H. T.)
+
+        Terça: 13:50 - 14:40
+        Terça: 14:40 - 15:30
+        Quinta: 15:45 - 16:35
+        Quinta: 16:35 - 17:25
+
+    Sistemas Distribuídos (SIST. DISTRIB.)
+
+        Quarta: 13:00 - 13:50
+        Quarta: 13:50 - 14:40
+        Quarta: 14:40 - 15:30
+        Quinta: 13:00 - 13:50
+        Quinta: 13:50 - 14:40
+        Quinta: 14:40 - 15:30
+
+    Programação Web II (PROG. WEB II)
+
+        Quinta: 15:45 - 16:35
+        Quinta: 16:35 - 17:25
+        Sexta: 13:00 - 13:50
+        Sexta: 13:50 - 14:40
+
+    Gestão de Tecnologia da Informação (GES. TE. INFOR)
+
+        Segunda: 15:45 - 16:35
+        Segunda: 16:35 - 17:25
+        Quinta: 15:45 - 16:35
+        Quinta: 16:35 - 17:25
