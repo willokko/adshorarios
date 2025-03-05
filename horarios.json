@@ -1,0 +1,144 @@
+{
+    "materias": [
+        {
+            "nome": "Cálculo",
+            "horario": ["M1", "M2", "M3"]
+        },
+        {
+            "nome": "Algoritmos",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Fundamentos de Computação",
+            "horario": ["M3", "M4", "T1", "T2"]
+        },
+        {
+            "nome": "Linguagem de Marcação",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Inglês Instrumental",
+            "horario": ["M5"]
+        },
+        {
+            "nome": "Português",
+            "horario": ["M4"]
+        },
+        {
+            "nome": "Gerenciamento de Mudanças",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Probabilidade",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Estruturas de Dados",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Redes",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Laboratório de Sistemas Web",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Sociedade e Tecnologia da Informação",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Projeto e Desenvolvimento de Software",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Programação Orientada a Objetos",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Banco de Dados I",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Metodologia",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Sistemas Operacionais",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Análise e Projeção de Sistemas",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Laboratório de Redes",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Banco de Dados II",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Teste de Software",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Gerenciamento de Projetos",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Programação Web I",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Interação Humano-Computador",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Desenvolvimento de Aplicações Corporativas",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Segurança da Informação",
+            "horario": ["M1", "M2"]
+        },
+        {
+            "nome": "Padrões de Projeto",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Programação para Dispositivos Móveis",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Trabalho de Conclusão de Curso II",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Língua Brasileira de Sinais",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Empreendedorismo",
+            "horario": ["T1", "T2"]
+        },
+        {
+            "nome": "Recursos Humanos em TI",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Sistemas Distribuídos",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Programação Web II",
+            "horario": ["T1"]
+        },
+        {
+            "nome": "Gestão de Tecnologia da Informação",
+            "horario": ["T1"]
+        }
+    ]
+}
