@@ -7,7 +7,7 @@
         },
         {
             "nome": "Algoritmos",
-            "horario": ["M1Ter", "M2Ter", "M4Sex", "M5Sex"],
+            "horario": ["M1Ter", "M2Ter", "M3Sex","M4Sex", "M5Sex"],
             "periodo": 1
         },
         {

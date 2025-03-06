@@ -1,50 +1,50 @@
 const periodos = {
     "1º Período": [
-        { nome: "Cálculo", horarios: ["Segunda: 07:00 - 07:50", "Segunda: 07:50 - 08:40", "Quarta: 07:00 - 07:50", "Quarta: 07:50 - 08:40", "Quarta: 08:40 - 09:30"] },
-        { nome: "Algoritmos", horarios: ["Terça: 07:00 - 07:50", "Terça: 07:50 - 08:40", "Sexta: 09:45 - 10:35", "Sexta: 10:35 - 11:25"] },
-        { nome: "Fund. Computação", horarios: ["Segunda: 08:40 - 09:30", "Segunda: 09:45 - 10:35", "Terça: 09:45 - 10:35", "Terça: 10:35 - 11:25"] },
-        { nome: "Ling. Marcação", horarios: ["Quinta: 07:00 - 07:50", "Quinta: 07:50 - 08:40", "Sexta: 07:00 - 07:50", "Sexta: 07:50 - 08:40"] },
-        { nome: "Inglês Inst.", horarios: ["Segunda: 10:35 - 11:25", "Quinta: 08:40 - 09:30"] },
-        { nome: "Português", horarios: ["Quarta: 09:45 - 10:35", "Quarta: 10:35 - 11:25"] },
+        { nome: "Cálculo", horarios: ["M1Seg", "M2Seg", "M1Qua", "M2Qua", "M3Qua"] },
+        { nome: "Algoritmos", horarios: ["M1Ter", "M2Ter", "M4Sex", "M5Sex"] },
+        { nome: "Fundamentos de Computação", horarios: ["M3Seg", "M4Seg", "M4Ter", "M5Ter"] },
+        { nome: "Linguagem de Marcação", horarios: ["M1Qui", "M2Qui", "M1Sex", "M2Sex"] },
+        { nome: "Inglês Instrumental", horarios: ["M5Seg", "M3Qui"] },
+        { nome: "Português", horarios: ["M4Qua", "M5Qua"] },
     ],
     "2º Período": [
-        { nome: "Ger. Mudanças", horarios: ["Segunda: 13:00 - 13:50", "Segunda: 13:50 - 14:40"] },
-        { nome: "Probabilidade", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Quarta: 13:00 - 13:50", "Quarta: 13:50 - 14:40"] },
-        { nome: "Est. Dados", horarios: ["Segunda: 14:30 - 15:20", "Segunda: 15:25 - 16:15", "Segunda: 16:35 - 17:25"] },
-        { nome: "Redes", horarios: ["Quinta: 13:00 - 13:50", "Quinta: 13:50 - 14:40", "Quinta: 14:30 - 15:20"] },
-        { nome: "L. S. Web", horarios: ["Sexta: 13:00 - 13:50", "Sexta: 13:50 - 14:40"] },
-        { nome: "Soc. Tec. Inf.", horarios: ["Sexta: 16:35 - 17:25"] },
+        { nome: "Gerenciamento de Mudanças", horarios: ["T1Seg", "T2Seg"] },
+        { nome: "Probabilidade", horarios: ["T1Ter", "T2Ter", "T1Qua", "T2Qua", "T3Qua"] },
+        { nome: "Estruturas de Dados", horarios: ["T3Seg", "T4Seg", "T5Seg", "T3Ter", "T4Ter", "T5Ter"] },
+        { nome: "Redes", horarios: ["T3Qua", "T4Qua", "T5Qua", "T1Qui", "T2Qui"] },
+        { nome: "Laboratório de Sistemas Web", horarios: ["T1Qui", "T2Qui", "T5Sex"] },
+        { nome: "Sociedade e Tecnologia da Informação", horarios: ["T4Sex", "T5Sex"] },
     ],
     "3º Período": [
-        { nome: "Proj. Desenv. Software", horarios: ["Segunda: 07:00 - 07:50", "Segunda: 07:50 - 08:40", "Terça: 07:00 - 07:50", "Terça: 07:50 - 08:40", "Quarta: 08:40 - 09:30"] },
-        { nome: "Prog. Orientada Objetos", horarios: ["Terça: 08:40 - 09:30", "Terça: 09:45 - 10:35", "Terça: 10:35 - 11:25", "Quarta: 07:00 - 07:50", "Quarta: 07:50 - 08:40", "Quarta: 09:45 - 10:35", "Quarta: 10:35 - 11:25"] },
-        { nome: "Banco de Dados I", horarios: ["Quinta: 07:00 - 07:50", "Quinta: 07:50 - 08:40", "Quinta: 09:45 - 10:35", "Quinta: 10:35 - 11:25"] },
-        { nome: "Metodologia", horarios: ["Sexta: 09:45 - 10:35", "Sexta: 10:35 - 11:25"] },
-        { nome: "Sistemas Operacionais", horarios: ["Sexta: 07:00 - 07:50", "Sexta: 07:50 - 08:40", "Sexta: 08:40 - 09:30", "Sexta: 09:45 - 10:35"] },
+        { nome: "Projeto e Desenvolvimento de Software", horarios: ["M1Seg", "M2Seg", "M1Ter", "M2Ter", "M3Qua"] },
+        { nome: "Programação Orientada a Objetos", horarios: ["M3Ter", "M4Ter", "M1Qua", "M2Qua", "M4Qua", "M5Qua"] },
+        { nome: "Banco de Dados I", horarios: ["M1Qui", "M2Qui", "M4Qui", "M5Qui"] },
+        { nome: "Metodologia", horarios: ["M4Sex", "M5Sex"] },
+        { nome: "Sistemas Operacionais", horarios: ["M1Sex", "M2Sex", "M3Sex", "M4Sex"] },
     ],
     "4º Período": [
-        { nome: "Análise Proj. Sistemas", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20", "Terça: 15:25 - 16:15", "Terça: 16:35 - 17:25"] },
-        { nome: "Lab. Redes", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20"] },
-        { nome: "Banco de Dados II", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20", "Terça: 15:25 - 16:15", "Terça: 16:35 - 17:25"] },
-        { nome: "Teste de Software", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20"] },
-        { nome: "Ger. Projetos", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20", "Terça: 15:25 - 16:15", "Terça: 16:35 - 17:25"] },
-        { nome: "Prog. Web I", horarios: ["Terça: 14:30 - 15:20", "Terça: 15:25 - 16:15", "Terça: 16:35 - 17:25"] },
+        { nome: "Análise e Projeção de Sistemas", horarios: ["T1Ter", "T2Ter", "T3Ter", "T4Ter", "T5Ter"] },
+        { nome: "Laboratório de Redes", horarios: ["T1Ter", "T2Ter", "T3Ter"] },
+        { nome: "Banco de Dados II", horarios: ["T1Ter", "T2Ter", "T3Ter", "T4Ter", "T5Ter"] },
+        { nome: "Teste de Software", horarios: ["T1Ter", "T2Ter", "T3Ter"] },
+        { nome: "Gerenciamento de Projetos", horarios: ["T1Ter", "T2Ter", "T3Ter", "T4Ter", "T5Ter"] },
+        { nome: "Programação Web I", horarios: ["T3Ter", "T4Ter", "T5Ter"] },
     ],
     "5º Período": [
-        { nome: "Interação Humano-Computador", horarios: ["Segunda: 07:00 - 07:50", "Segunda: 07:50 - 08:40", "Terça: 07:00 - 07:50", "Terça: 07:50 - 08:40"] },
-        { nome: "Desenv. Aplic. Corporativas", horarios: ["Segunda: 08:40 - 09:30", "Segunda: 09:45 - 10:35", "Segunda: 10:35 - 11:25", "Quarta: 07:00 - 07:50", "Quarta: 07:50 - 08:40", "Quarta: 08:40 - 09:30"] },
-        { nome: "Segurança da Informação", horarios: ["Terça: 08:40 - 09:30", "Terça: 09:45 - 10:35", "Terça: 10:35 - 11:25", "Quinta: 07:00 - 07:50", "Quinta: 07:50 - 08:40"] },
-        { nome: "Padrões de Projeto", horarios: ["Quarta: 09:45 - 10:35", "Quarta: 10:35 - 11:25", "Quinta: 09:45 - 10:35", "Quinta: 10:35 - 11:25"] },
-        { nome: "Prog. Dispositivos Móveis", horarios: ["Sexta: 07:00 - 07:50", "Sexta: 07:50 - 08:40", "Sexta: 08:40 - 09:30", "Sexta: 09:45 - 10:35", "Sexta: 10:35 - 11:25"] },
+        { nome: "Interação Humano-Computador", horarios: ["M1Seg", "M2Seg", "M1Ter", "M2Ter"] },
+        { nome: "Desenvolvimento de Aplicações Corporativas", horarios: ["M3Seg", "M4Seg", "M5Seg", "M1Qua", "M2Qua", "M3Qua"] },
+        { nome: "Segurança da Informação", horarios: ["M3Ter", "M4Ter", "M5Ter", "M1Qui", "M2Qui"] },
+        { nome: "Padrões de Projeto", horarios: ["M4Qua", "M5Qua", "M4Qui", "M5Qui"] },
+        { nome: "Programação para Dispositivos Móveis", horarios: ["M1Sex", "M2Sex", "M3Sex", "M4Sex", "M5Sex"] },
     ],
     "6º Período": [
-        { nome: "TCC II", horarios: ["Terça: 13:00 - 13:50", "Terça: 13:50 - 14:40"] },
-        { nome: "Libras", horarios: ["Quarta: 08:40 - 09:30", "Quarta: 09:45 - 10:35", "Quarta: 10:35 - 11:25"] },
-        { nome: "Empreendedorismo", horarios: ["Segunda: 13:00 - 13:50", "Segunda: 13:50 - 14:40", "Segunda: 14:30 - 15:20", "Terça: 13:00 - 13:50"] },
-        { nome: "Recursos Humanos TI", horarios: ["Terça: 13:50 - 14:40", "Terça: 14:30 - 15:20", "Quinta: 15:25 - 16:15", "Quinta: 16:35 - 17:25"] },
-        { nome: "Sistemas Distribuídos", horarios: ["Quarta: 13:00 - 13:50", "Quarta: 13:50 - 14:40", "Quarta: 14:30 - 15:20", "Quinta: 13:00 - 13:50", "Quinta: 13:50 - 14:40", "Quinta: 14:30 - 15:20"] },
-        { nome: "Prog. Web II", horarios: ["Quinta: 15:25 - 16:15", "Quinta: 16:35 - 17:25", "Sexta: 13:00 - 13:50", "Sexta: 13:50 - 14:40"] },
-        { nome: "Gestão TI", horarios: ["Segunda: 15:25 - 16:15", "Segunda: 16:35 - 17:25", "Quinta: 15:25 - 16:15", "Quinta: 16:35 - 17:25"] },
+        { nome: "Trabalho de Conclusão de Curso II", horarios: ["T1Ter", "T2Ter"] },
+        { nome: "Língua Brasileira de Sinais", horarios: ["M3Qua", "M4Qua", "M5Qua"] },
+        { nome: "Empreendedorismo", horarios: ["T1Seg", "T2Seg", "T3Seg", "T1Ter"] },
+        { nome: "Recursos Humanos em TI", horarios: ["T2Ter", "T3Ter", "T4Qui", "T5Qui"] },
+        { nome: "Sistemas Distribuídos", horarios: ["T1Qua", "T2Qua", "T3Qua", "T1Qui", "T2Qui", "T3Qui"] },
+        { nome: "Programação Web II", horarios: ["T4Qui", "T5Qui", "T1Sex", "T2Sex"] },
+        { nome: "Gestão de Tecnologia da Informação", horarios: ["T4Seg", "T5Seg", "T4Qui", "T5Qui"] },
     ]
 };
 
@@ -52,136 +52,79 @@ const listaPeriodos = document.getElementById("materias-lista");
 const tabelaHorarios = document.getElementById("tabela-horarios").getElementsByTagName("tbody")[0];
 const conflitosDiv = document.getElementById("conflitos");
 
-// Criar botões de período
-Object.keys(periodos).forEach(periodo => {
-    const botaoPeriodo = document.createElement("button");
-    botaoPeriodo.innerText = periodo;
-    botaoPeriodo.classList.add("btn-periodo");
-    botaoPeriodo.addEventListener("click", () => togglePeriodo(periodo));
-    listaPeriodos.appendChild(botaoPeriodo);
+// Função para criar os dropdowns
+function criarDropdowns() {
+    const listaPeriodos = document.getElementById("materias-lista");
 
-    const divMaterias = document.createElement("div");
-    divMaterias.classList.add("dropdown-materias");
-    divMaterias.setAttribute("id", `dropdown-${periodo.replace(" ", "-")}`);
-    divMaterias.style.display = "none";
+    Object.keys(periodos).forEach(periodo => {
+        const divMaterias = document.createElement("div");
+        divMaterias.classList.add("dropdown-materias");
 
-    periodos[periodo].forEach((materia, index) => {
-        const div = document.createElement("div");
-        div.classList.add("materia-item");
+        const tituloPeriodo = document.createElement("h2");
+        tituloPeriodo.innerText = periodo;
+        divMaterias.appendChild(tituloPeriodo);
 
-        const label = document.createElement("label");
-        
-        const spanNome = document.createElement("span");
-        spanNome.classList.add("materia-nome");
-        spanNome.textContent = materia.nome;
-        
-        const spanHorarios = document.createElement("span");
-        spanHorarios.classList.add("materia-horarios");
-        spanHorarios.textContent = materia.horarios.map(h => h.replace("Segunda:", "Seg").replace("Terça:", "Ter").replace("Quarta:", "Qua").replace("Quinta:", "Qui").replace("Sexta:", "Sex")).join(", ");
+        periodos[periodo].forEach(materia => {
+            const div = document.createElement("div");
+            div.classList.add("materia-item");
 
-        label.appendChild(spanNome);
-        label.appendChild(spanHorarios);
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.id = materia.nome;
+            checkbox.value = materia.horarios.join(", "); // Armazena os horários como valor
 
-        const checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.value = `${periodo}-${index}`;
+            const label = document.createElement("label");
+            label.htmlFor = materia.nome;
+            label.innerText = materia.nome;
 
-        div.appendChild(checkbox);
-        div.appendChild(label);
-        divMaterias.appendChild(div);
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            divMaterias.appendChild(div);
+        });
+
+        listaPeriodos.appendChild(divMaterias);
     });
-
-    listaPeriodos.appendChild(divMaterias);
-});
-
-// Função para alternar a visibilidade dos períodos
-function togglePeriodo(periodoId) {
-    const content = document.getElementById(periodoId);
-    if (content) {
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-    }
 }
+
+// Chama a função para criar os dropdowns ao carregar a página
+window.onload = criarDropdowns;
 
 // Função para gerar o horário
 function gerarHorario() {
-    const horarioTabela = document.getElementById('horarioTabela');
     const conflitosDiv = document.getElementById('conflitos');
-    
-    // Limpa a tabela e os conflitos
-    horarioTabela.innerHTML = '';
-    conflitosDiv.innerHTML = '';
-    conflitosDiv.classList.remove('active');
-    
-    // Define todos os horários possíveis
-    const horarios = [
-        "07:00 - 07:50", "07:50 - 08:40", "08:40 - 09:30", "09:45 - 10:35", "10:35 - 11:25",
-        "13:00 - 13:50", "13:50 - 14:40", "14:30 - 15:20", "15:25 - 16:15", "16:35 - 17:25"
-    ];
+    conflitosDiv.innerHTML = ''; // Limpa os conflitos anteriores
+    conflitosDiv.classList.remove('active'); // Remove a classe de ativo
 
-    const dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"];
-    const diasAbreviados = ["Seg", "Ter", "Qua", "Qui", "Sex"];
-    const conflitos = [];
-    const ocupacao = {};
+    // Limpa a tabela antes de gerar um novo horário
+    const tabelaHorarios = document.getElementById('tabela-horarios').getElementsByTagName('tbody')[0];
+    const cells = tabelaHorarios.getElementsByTagName('td');
 
-    // Cria a estrutura base da tabela
-    horarios.forEach(horario => {
-        const row = document.createElement('tr');
-        const horarioCell = document.createElement('td');
-        horarioCell.textContent = horario;
-        row.appendChild(horarioCell);
-
-        dias.forEach(() => {
-            const cell = document.createElement('td');
-            row.appendChild(cell);
-        });
-
-        horarioTabela.appendChild(row);
-    });
+    // Limpa todas as células da tabela, exceto a primeira coluna
+    for (let i = 0; i < cells.length; i++) {
+        if (i % 6 !== 0) { // Mantém a primeira coluna (horários)
+            cells[i].innerHTML = ''; // Limpa o conteúdo
+            cells[i].classList.remove('conflito'); // Remove a classe de conflito
+        }
+    }
 
     // Processa as matérias selecionadas
     document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
         const materiaItem = checkbox.closest('.materia-item');
-        const materiaName = materiaItem.querySelector('.materia-nome').textContent;
-        const horariosTexto = materiaItem.querySelector('.materia-horarios').textContent;
-        
-        horariosTexto.split(', ').forEach(bloco => {
-            const [diaAbreviado, horario] = bloco.split(' ');
-            const diaCompleto = dias[diasAbreviados.indexOf(diaAbreviado)];
-            const [horaInicio, horaFim] = horario.split('-');
-            const colIndex = dias.indexOf(diaCompleto) + 1;
+        const materiaName = materiaItem.querySelector('label').innerText;
+        const horariosTexto = checkbox.value.split(', '); // Obtém os horários da matéria
 
-            // Encontra as linhas correspondentes aos horários
-            const rowIndexInicio = horarios.findIndex(h => h.startsWith(horaInicio));
-            const rowIndexFim = horarios.findIndex(h => h.startsWith(horaFim));
-
-            if (rowIndexInicio !== -1 && colIndex !== 0) {
-                for (let i = rowIndexInicio; i <= rowIndexFim; i++) {
-                    if (i >= 0 && i < horarioTabela.rows.length) {
-                        const cell = horarioTabela.rows[i].cells[colIndex];
-                        const key = `${diaCompleto}-${horarios[i]}`;
-
-                        if (ocupacao[key]) {
-                            conflitos.push(`Conflito: ${ocupacao[key]} e ${materiaName} em ${diaCompleto} ${horarios[i]}`);
-                            cell.classList.add('conflito');
-                            cell.textContent += ` / ${materiaName}`;
-                        } else {
-                            ocupacao[key] = materiaName;
-                            cell.textContent = materiaName;
-                        }
-                    }
+        horariosTexto.forEach(codigo => {
+            const cell = tabelaHorarios.querySelector(`#${codigo}`);
+            if (cell) {
+                if (cell.innerHTML) {
+                    // Se já houver uma matéria na célula, adiciona um conflito
+                    cell.classList.add('conflito');
+                    conflitosDiv.classList.add('active');
+                    conflitosDiv.innerHTML += `<p>Conflito: ${cell.innerHTML} e ${materiaName} em ${codigo}</p>`;
                 }
+                // Adiciona a matéria à célula
+                cell.innerHTML += (cell.innerHTML ? ' / ' : '') + materiaName; // Adiciona a nova matéria
             }
         });
     });
-
-    // Mostra conflitos se houver
-    if (conflitos.length > 0) {
-        conflitosDiv.innerHTML = `
-            <h3>⚠️ Conflitos Encontrados:</h3>
-            <ul>
-                ${conflitos.map(conflito => `<li>${conflito}</li>`).join('')}
-            </ul>
-        `;
-        conflitosDiv.classList.add('active');
-    }
 }

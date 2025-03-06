@@ -172,9 +172,8 @@ td {
 }
 
 .conflito {
-    background: #ff7675;
+    background-color: rgb(252, 70, 70);
     color: white;
-    font-weight: bold;
 }
 
 .conflitos {
