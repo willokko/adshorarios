@@ -2,7 +2,7 @@
     "materias": [
         {
             "nome": "Cálculo",
-            "horario": ["M1Seg", "M2Seg", "M1Qua", "M2Qua", "M3Qua"],
+            "horario": ["M1Seg", "M2Seg", "M3Ter", "M1Qua", "M2Qua", "M3Qua"],
             "periodo": 1
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "nome": "Banco de Dados I",
-            "horario": ["M1Qui", "M2Qui", "M4Qui", "M5Qui"],
+            "horario": ["M1Qui", "M2Qui", "M3Qui", "M1Sex", "M2Sex"],
             "periodo": 3
         },
         {
@@ -82,7 +82,7 @@
         },
         {
             "nome": "Sistemas Operacionais",
-            "horario": ["M1Sex", "M2Sex", "M3Sex", "M4Sex"],
+            "horario": ["M4Qui", "M5Qui", "M3Sex", "M4Sex", "M5Sex"],
             "periodo": 3
         },
         {

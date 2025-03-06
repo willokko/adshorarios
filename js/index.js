@@ -64,6 +64,9 @@ function criarDropdowns() {
         tituloPeriodo.innerText = periodo;
         divMaterias.appendChild(tituloPeriodo);
 
+        const materiasContainer = document.createElement("div");
+        materiasContainer.classList.add("materias-dropdown");
+
         periodos[periodo].forEach(materia => {
             const div = document.createElement("div");
             div.classList.add("materia-item");
@@ -79,9 +82,15 @@ function criarDropdowns() {
 
             div.appendChild(checkbox);
             div.appendChild(label);
-            divMaterias.appendChild(div);
+            materiasContainer.appendChild(div);
         });
 
+        // Adiciona a funcionalidade de dropdown
+        tituloPeriodo.addEventListener("click", () => {
+            materiasContainer.classList.toggle("active");
+        });
+
+        divMaterias.appendChild(materiasContainer);
         listaPeriodos.appendChild(divMaterias);
     });
 }
