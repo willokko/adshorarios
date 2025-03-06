@@ -3,10 +3,337 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela de Horários</title>
+    <title>Gerenciamento de Horários</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Gerenciamento de Horários ADS</h1>
+        
+        <div class="periodos-container">
+            <!-- Período 1 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo1')">P1</button>
+                <div id="periodo1" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="calculo" name="materia">
+                            <label for="calculo">
+                                <span class="materia-nome">Cálculo</span>
+                                <span class="materia-horarios">Seg 07:00-08:40, Qua 07:00-09:30</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="algoritmos" name="materia">
+                            <label for="algoritmos">
+                                <span class="materia-nome">Algoritmos</span>
+                                <span class="materia-horarios">Ter 07:00-08:40, Sex 09:45-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="fundcomp" name="materia">
+                            <label for="fundcomp">
+                                <span class="materia-nome">Fund. Computação</span>
+                                <span class="materia-horarios">Seg 08:40-10:35, Ter 09:45-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="linmarcacao" name="materia">
+                            <label for="linmarcacao">
+                                <span class="materia-nome">Ling. Marcação</span>
+                                <span class="materia-horarios">Qui 07:00-08:40, Sex 07:00-08:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="ingles" name="materia">
+                            <label for="ingles">
+                                <span class="materia-nome">Inglês Inst.</span>
+                                <span class="materia-horarios">Seg 10:35-11:25, Qui 08:40-09:30</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="portugues" name="materia">
+                            <label for="portugues">
+                                <span class="materia-nome">Português</span>
+                                <span class="materia-horarios">Qua 09:45-11:25</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Período 2 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo2')">P2</button>
+                <div id="periodo2" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="germudancas" name="materia">
+                            <label for="germudancas">
+                                <span class="materia-nome">Ger. Mudanças</span>
+                                <span class="materia-horarios">Seg 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="probabilidade" name="materia">
+                            <label for="probabilidade">
+                                <span class="materia-nome">Probabilidade</span>
+                                <span class="materia-horarios">Ter 13:00-14:40, Qua 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="estdados" name="materia">
+                            <label for="estdados">
+                                <span class="materia-nome">Est. Dados</span>
+                                <span class="materia-horarios">Seg 14:30-17:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="redes" name="materia">
+                            <label for="redes">
+                                <span class="materia-nome">Redes</span>
+                                <span class="materia-horarios">Qui 13:00-15:20</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="lsweb" name="materia">
+                            <label for="lsweb">
+                                <span class="materia-nome">L. S. Web</span>
+                                <span class="materia-horarios">Sex 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="soctec" name="materia">
+                            <label for="soctec">
+                                <span class="materia-nome">Soc. Tec. Inf.</span>
+                                <span class="materia-horarios">Sex 16:35-17:25</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Período 3 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo3')">P3</button>
+                <div id="periodo3" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="pds" name="materia">
+                            <label for="pds">
+                                <span class="materia-nome">Proj. Desenv. Software</span>
+                                <span class="materia-horarios">Seg 07:00-08:40, Ter 07:00-08:40, Qua 08:40-09:30</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="poo" name="materia">
+                            <label for="poo">
+                                <span class="materia-nome">Prog. Orientada Objetos</span>
+                                <span class="materia-horarios">Ter 08:40-11:25, Qua 07:00-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="bd1" name="materia">
+                            <label for="bd1">
+                                <span class="materia-nome">Banco de Dados I</span>
+                                <span class="materia-horarios">Qui 07:00-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="metodologia" name="materia">
+                            <label for="metodologia">
+                                <span class="materia-nome">Metodologia</span>
+                                <span class="materia-horarios">Sex 10:35-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="so" name="materia">
+                            <label for="so">
+                                <span class="materia-nome">Sistemas Operacionais</span>
+                                <span class="materia-horarios">Sex 07:00-10:35</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Período 4 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo4')">P4</button>
+                <div id="periodo4" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="aps" name="materia">
+                            <label for="aps">
+                                <span class="materia-nome">Análise Proj. Sistemas</span>
+                                <span class="materia-horarios">Ter 13:00-17:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="labredes" name="materia">
+                            <label for="labredes">
+                                <span class="materia-nome">Lab. Redes</span>
+                                <span class="materia-horarios">Ter 13:00-15:20</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="bd2" name="materia">
+                            <label for="bd2">
+                                <span class="materia-nome">Banco de Dados II</span>
+                                <span class="materia-horarios">Ter 13:00-17:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="testesoft" name="materia">
+                            <label for="testesoft">
+                                <span class="materia-nome">Teste de Software</span>
+                                <span class="materia-horarios">Ter 13:00-15:20</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="gerproj" name="materia">
+                            <label for="gerproj">
+                                <span class="materia-nome">Ger. Projetos</span>
+                                <span class="materia-horarios">Ter 13:00-17:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="progweb1" name="materia">
+                            <label for="progweb1">
+                                <span class="materia-nome">Prog. Web I</span>
+                                <span class="materia-horarios">Ter 15:25-17:25</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+            <!-- Período 5 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo5')">P5</button>
+                <div id="periodo5" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="ihc" name="materia">
+                            <label for="ihc">
+                                <span class="materia-nome">Interação Humano-Computador</span>
+                                <span class="materia-horarios">Seg 07:00-08:40, Ter 07:00-08:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="dac" name="materia">
+                            <label for="dac">
+                                <span class="materia-nome">Desenv. Aplic. Corporativas</span>
+                                <span class="materia-horarios">Seg 08:40-11:25, Qua 07:00-09:30</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="seguranca" name="materia">
+                            <label for="seguranca">
+                                <span class="materia-nome">Segurança da Informação</span>
+                                <span class="materia-horarios">Ter 08:40-11:25, Qui 07:00-08:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="padroes" name="materia">
+                            <label for="padroes">
+                                <span class="materia-nome">Padrões de Projeto</span>
+                                <span class="materia-horarios">Qua 10:35-11:25, Qui 10:35-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="progmobile" name="materia">
+                            <label for="progmobile">
+                                <span class="materia-nome">Prog. Dispositivos Móveis</span>
+                                <span class="materia-horarios">Sex 07:00-11:25</span>
+                            </label>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    
+            <!-- Período 6 -->
+            <div class="periodo">
+                <button class="periodo-btn" onclick="togglePeriodo('periodo6')">P6</button>
+                <div id="periodo6" class="periodo-content">
+                    <div class="materias-dropdown">
+                        <div class="materia-item">
+                            <input type="checkbox" id="tcc2" name="materia">
+                            <label for="tcc2">
+                                <span class="materia-nome">TCC II</span>
+                                <span class="materia-horarios">Ter 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="libras" name="materia">
+                            <label for="libras">
+                                <span class="materia-nome">Libras</span>
+                                <span class="materia-horarios">Qua 08:40-11:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="empreendedorismo" name="materia">
+                            <label for="empreendedorismo">
+                                <span class="materia-nome">Empreendedorismo</span>
+                                <span class="materia-horarios">Seg 13:00-15:20, Ter 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="rhti" name="materia">
+                            <label for="rhti">
+                                <span class="materia-nome">Recursos Humanos TI</span>
+                                <span class="materia-horarios">Ter 14:40-16:15, Qui 15:25-17:25</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="sistdist" name="materia">
+                            <label for="sistdist">
+                                <span class="materia-nome">Sistemas Distribuídos</span>
+                                <span class="materia-horarios">Qua 13:00-15:20, Qui 13:00-15:20</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="progweb2" name="materia">
+                            <label for="progweb2">
+                                <span class="materia-nome">Prog. Web II</span>
+                                <span class="materia-horarios">Qui 15:25-17:25, Sex 13:00-14:40</span>
+                            </label>
+                        </div>
+                        <div class="materia-item">
+                            <input type="checkbox" id="gti" name="materia">
+                            <label for="gti">
+                                <span class="materia-nome">Gestão TI</span>
+                                <span class="materia-horarios">Seg 15:25-17:25, Qui 15:25-17:25</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="gerarHorario" class="gerar-btn" onclick="gerarHorario()">Gerar Horário</button>
+
+        <div id="horarioGerado" class="horario-grid">
+            <h2>Horário Gerado</h2>
+            <table>
+        <thead>
+            <tr>
+                <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+            </tr>
+        </thead>
+                <tbody id="horarioTabela"></tbody>
+    </table>
+        </div>
+
+        <div id="conflitos" class="conflitos"></div>
+    </div>
+    
+    <script src="/js/index.js"></script>
     <section>
         <h1>Horários ADS IFPB Cajazeiras</h1>
         <table>
