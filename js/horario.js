@@ -88,12 +88,35 @@ function criarDropdowns() {
             materiasContainer.appendChild(div);
         });
 
-        tituloPeriodo.addEventListener("click", () => {
+        tituloPeriodo.addEventListener("click", (e) => {
+            document.querySelectorAll('.materias-dropdown').forEach(dropdown => {
+                if (dropdown !== materiasContainer) {
+                    dropdown.classList.remove('active');
+                }
+            });
+            document.querySelectorAll('.dropdown-materias').forEach(dropdown => {
+                if (dropdown !== divMaterias) {
+                    dropdown.classList.remove('expanded');
+                }
+            });
+
             materiasContainer.classList.toggle("active");
+            divMaterias.classList.toggle("expanded");
         });
 
         divMaterias.appendChild(materiasContainer);
         listaPeriodos.appendChild(divMaterias);
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.dropdown-materias')) {
+            document.querySelectorAll('.materias-dropdown').forEach(dropdown => {
+                dropdown.classList.remove('active');
+            });
+            document.querySelectorAll('.dropdown-materias').forEach(dropdown => {
+                dropdown.classList.remove('expanded');
+            });
+        }
     });
 }
 
