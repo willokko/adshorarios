@@ -16,6 +16,6 @@ function registrar() {
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
         alert('Registro realizado com sucesso!');
-        location.href = "/horario.html";
+        location.href = "horario.html";
     }
 }

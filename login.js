@@ -9,6 +9,6 @@ function logar() {
     } else if (usuario.senha !== senha) {
         alert('Senha errada, digite a correta.');
     } else {
-        location.href = "/horario.html"; 
+        location.href = "horario.html"; 
     }
 }
