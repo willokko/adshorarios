@@ -141,13 +141,56 @@ function limparSelecao() {
 }
 
 function exportarPDF() {
-    const opt = {
-        margin: 1,
-        filename: 'horario-ads.pdf',
-        image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2 },
-        jsPDF: { unit: 'in', format: 'a4', orientation: 'landscape' }
-    };
+    // Seleciona a seção que contém a tabela
     const element = document.querySelector('section');
-    html2pdf().set(opt).from(element).save();
+    
+    // Configurações específicas para capturar toda a tabela
+    const opt = {
+        margin: 10,
+        filename: 'horario-ads.pdf',
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { 
+            scale: 1.5,
+            useCORS: true,
+            letterRendering: true,
+            scrollX: 0,
+            scrollY: 0,
+            windowWidth: element.scrollWidth + 200, // Adiciona margem extra
+            windowHeight: element.scrollHeight + 200 // Adiciona margem extra
+        },
+        jsPDF: { 
+            unit: 'mm', 
+            format: 'a3', // Usa formato A3 que é maior
+            orientation: 'landscape',
+            compress: false
+        }
+    };
+
+    // Cria um container temporário com estilo específico
+    const container = document.createElement('div');
+    container.style.width = '100%';
+    container.style.padding = '20px';
+    container.style.backgroundColor = 'white';
+    
+    // Clone a tabela original
+    const conteudo = element.cloneNode(true);
+    
+    // Ajusta o estilo da tabela clonada para garantir que fique completa
+    const tabela = conteudo.querySelector('table');
+    tabela.style.width = '100%';
+    tabela.style.tableLayout = 'fixed';
+    tabela.style.pageBreakInside = 'avoid';
+    
+    // Adiciona ao container
+    container.appendChild(conteudo);
+    
+    // Aplica a exportação com as novas configurações
+    html2pdf()
+        .from(container)
+        .set(opt)
+        .save()
+        .catch(err => {
+            console.error('Erro ao gerar PDF:', err);
+            alert('Ocorreu um erro ao gerar o PDF. Por favor, tente novamente.');
+        });
 }
