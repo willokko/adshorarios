@@ -138,9 +138,12 @@ function gerarHorario() {
     }
     document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
         const materiaItem = checkbox.closest('.materia-item');
+        // Obtém nome da matéria
         const materiaName = materiaItem.querySelector('label').innerText;
+        // Obtém array de horários (exemplo: ["M1Seg", "M2Seg"])
         const horariosTexto = checkbox.value.split(', '); 
         horariosTexto.forEach(codigo => {
+            // Encontra a célula correspondente pelo ID
             const cell = tabelaHorarios.querySelector(`#${codigo}`);
             if (cell) {
                 if (cell.innerHTML) {
