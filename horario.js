@@ -36,6 +36,7 @@ const periodos = {
         { nome: "Segurança da Informação", horarios: ["M3Ter", "M4Ter", "M5Ter", "M1Qui", "M2Qui"] },
         { nome: "Padrões de Projeto", horarios: ["M4Qua", "M5Qua", "M3Qui","M4Qui", "M5Qui"] },
         { nome: "Programação para Dispositivos Móveis", horarios: ["M2Sex", "M3Sex", "M4Sex", "M5Sex"] },
+        { nome: "Trabalho de Conclusão de Curso I", horarios: ["T4Qua", "T5Qua"] },
     ],
     "6º Período": [
         { nome: "Trabalho de Conclusão de Curso II", horarios: ["M1Ter", "M2Ter"] },
